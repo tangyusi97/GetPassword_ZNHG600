@@ -1,3 +1,5 @@
+const LOGIN_MD5 = '5759e5113145da268ed95d9229dd9f22';
+
 /*
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
  * Digest Algorithm, as defined in RFC 1321.
@@ -298,7 +300,7 @@ function getPassword()
       console.log(i+"/99999999");
     }
     var result = hex_md5(name);
-    if (result=="5f0125b81dcf0e31b35783715d7ecc00")
+    if (result==LOGIN_MD5)
     {
       console.log(name);
       break;
