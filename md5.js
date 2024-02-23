@@ -1,4 +1,4 @@
-const LOGIN_MD5 = '5759e5113145da268ed95d9229dd9f22';
+const LOGIN_MD5 = 'fd4c37cc1dc670eec8930655522a9370';
 
 /*
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
